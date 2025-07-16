@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maqaayadda Alfoowzi</title>
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffaf0;
+    }
+    header {
+      background-color: #8b0000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #26be82;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      background-color: aqua;
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    footer {
+      background-color: #8b0000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position:relative ;
+      bottom: 0;
+      width: 100%;
+    }
+    ul {
+      list-style:square ;
+    }
+    form input, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+    }
+    form input[type="submit"] {
+      background-color: #0f0f0f;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+   .food {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+.food article {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.food img {
+    width: 100%;
+    height: auto;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Maqaayadda Alfoowzi</h1>
+    <p>Dhadhan Cunto oo aan la ilaawi karin</p>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+  <section id="menu">
+      <h2>Menu-ga Maanta</h2>
+      <ul>
+        <li>Baasto Suugo Somaliyeed </li>
+        <li>Bariis Hilib Ari ah</li>
+        <li>Canjeero & Maraq</li>
+        
+      </ul>
+    </section>
+    <section class="food">
+      <article>
+      <img src="Baasto.jpg" width="400" height="200" alt="" >
+      <h2>Baasto suugo leh</h2>
+      </article>
+
+      <article>
+        <img src="bariis.jpg" width="400" height="200" alt="">
+        <h2>Bariis Hilib</h2>
+      </article>
+      <article>
+        <img src="cajeero.jpg" width="400" height="200" alt="">
+       <h2>Canjeero & Maraq</h2>
+      </article></h2>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Maqaayadda Alfoowzi - Dhammaan xuquuqda way dhawrsan tahay.</p>
+  </footer>
+</body>
+</html>
